@@ -340,7 +340,7 @@ def main():
     st.write("A: Addressing and testing for bias in model development was paramount to producing equitable outcomes for applicants. A major step taken to prevent bias was that the model was not trained on protected identifiers such as age, race, gender, zip code, and language. Additionally, the model was trained on a diverse dataset representative of the Philadelphia population. Lastly, the model was optimized to have similar performance identifying both households without broadband internet and household with broadband internet. This was achieved by assessing the model with the balanced accuracy metric, a measure that takes into account the sensitivity and specificity of the model, and by weighting the model for both groups. ")
     st.write("**Q: How consistent is the machine learning model performance across demographics?**")
     st.write("A: Below is a summary comparison of machine learning model performance and income-based screening performance across age, race, and gender. Not enough data was available for performance measurements at the intersection of these demographics.")
-    st.image('performace2.png')
+    st.image('performance2.png')
     st.write("**Q: What happens if users opt out of having their application reviewed by AI/ML?**")
     st.write("A: Users may opt out of having their application reviewed by AI/ML and will be screened based on their household income in comparison to a predetermined threshold.")
 

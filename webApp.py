@@ -5,7 +5,7 @@ import sklearn
 
 #import data
 url = "https://github.com/GibsonHurst/Philly_Broadband_Internet/blob/main/philly_household_internet_survey.csv"
-df = pd.read_csv(url)
+df = pd.read_csv(url, index_col=0)
 
 #Select relavent features
 df = df[['HH_WIRED_BROADBAND', 'RESP_EDU_4_CATEGORIES', 'HH_INCOME', 'HH_ADULTS_COUNT', 'HH_18_OR_UNDER_COUNT', 'HH_COMBINED_PHONE_ACCESS', 'HH_K_12_HOUSEHOLD', 'HH_TABLET']]

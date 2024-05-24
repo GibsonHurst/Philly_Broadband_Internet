@@ -4,7 +4,7 @@ import numpy as np
 import sklearn
 
 #import data
-url = "https://github.com/GibsonHurst/Philly_Broadband_Internet/blob/main/philly_household_internet_survey.csv"
+url = "https://raw.githubusercontent.com/GibsonHurst/Philly_Broadband_Internet/main/philly_household_internet_survey.csv"
 df = pd.read_csv(url, index_col=0)
 
 #Select relavent features

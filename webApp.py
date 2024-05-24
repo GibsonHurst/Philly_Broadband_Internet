@@ -198,7 +198,11 @@ final_model.fit(training_features, training_labels)
 
 def main():
     st.title('Philadelphia Reduced-Price Broadband Internet Program')
-    st.write('A data science project by Gibson Hurst.')
+    st.write('A Data Science Project by Gibson Hurst')
+    st.write("[Github Repo](https://github.com/GibsonHurst/Philly_Broadband_Internet/tree/main)")
+    st.write("[Experiment Tracking and Versioning](https://docs.google.com/spreadsheets/d/1VVerLDv5Q7fAYc8_tDpXzQeFb2LhYZCqbMPIuupxv28/edit?usp=sharing)")
+    st.write("[Data Source](https://opendataphilly.org/datasets/philadelphia-household-internet-assessment-survey/)")
+    st.write("[LinkedIn](https://www.linkedin.com/in/gibson-hurst/)")
     st.header('Apply Here')
     st.write('Answer these questions to apply. Applicants predicted not to have broadband internet access are approved for reduced-priced broadband internet. Applicant screening relies on artificial intelligence and machine learning. Limited to residential customers in Philadelphia, PA. Our mission is to provide broadband internet access to all residents of Philadelphia.')
     
@@ -347,11 +351,10 @@ def main():
     st.header("About The Project")
     
     st.write("By: Gibson Hurst")
-    st.write("[Github Repo](link)")
-    st.write("[Experiment Tracking and Versioning](link)")
-    st.write("[Data Source](link)")
-    st.write("[Portfolio Website](link)")
-    st.write("[LinkedIn](link)")
+    st.write("[Github Repo](https://github.com/GibsonHurst/Philly_Broadband_Internet/tree/main)")
+    st.write("[Experiment Tracking and Versioning](https://docs.google.com/spreadsheets/d/1VVerLDv5Q7fAYc8_tDpXzQeFb2LhYZCqbMPIuupxv28/edit?usp=sharing)")
+    st.write("[Data Source](https://opendataphilly.org/datasets/philadelphia-household-internet-assessment-survey/)")
+    st.write("[LinkedIn](https://www.linkedin.com/in/gibson-hurst/)")
     
     st.subheader("Highlights")
     st.markdown("""

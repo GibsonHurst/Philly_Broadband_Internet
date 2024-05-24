@@ -18,8 +18,7 @@ A: Addressing and testing for bias in model development was paramount to produci
 **Q: How consistent is the machine learning model performance across demographics?**
 
 A: Below is a summary comparison of machine learning model performance and income-based screening performance across age, race, and gender. Performance metrics at the intersection of these demographics were not sufficiently available for measurement.
-
-![Performance Chart 2](performance2.png){width=50%}
+<img src="https://github.com/GibsonHurst/Philly_Broadband_Internet/blob/main/performance2.png" width=500px>
 
 **Q: What happens if users opt out of having their application reviewed by AI/ML?**
 

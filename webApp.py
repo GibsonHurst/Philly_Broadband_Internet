@@ -4,8 +4,8 @@ import numpy as np
 import sklearn
 
 #import data
-url = "https://opendata.arcgis.com/api/v3/datasets/680b093be7274fc8a2b92756c38499bd_0/downloads/data?format=csv&spatialRefId=4326&where=1%3D1"
-df = pd.read_csv(url)
+#url = "https://opendata.arcgis.com/api/v3/datasets/680b093be7274fc8a2b92756c38499bd_0/downloads/data?format=csv&spatialRefId=4326&where=1%3D1"
+df = pd.read_csv(philly_household_internet_survey.csv)
 
 #Select relavent features
 df = df[['HH_WIRED_BROADBAND', 'RESP_EDU_4_CATEGORIES', 'HH_INCOME', 'HH_ADULTS_COUNT', 'HH_18_OR_UNDER_COUNT', 'HH_COMBINED_PHONE_ACCESS', 'HH_K_12_HOUSEHOLD', 'HH_TABLET']]

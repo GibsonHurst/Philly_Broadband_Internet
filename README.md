@@ -9,7 +9,8 @@ A: The machine learning model uses applicant answers to predict their probabilit
 
 A: In testing, the machine learning model used for applicant screening has been shown to expand eligibility by 42% for households in need over traditional screening methods. This means the model is 42% more accurate than traditional methods at identifying applicants who truly lack broadband internet. Without the machine learning model, applicants would be screened solely based on their household income, limiting households above a predetermined income threshold from receiving benefits even when needed.
 
-<img src="https://github.com/GibsonHurst/Philly_Broadband_Internet/blob/773f7ee80ef5a9e0fec86ba90ea569e9dba4f2f5/performance1.png)" width=500px>
+
+<img src="[https://github.com/GibsonHurst/Philly_Broadband_Internet/blob/773f7ee80ef5a9e0fec86ba90ea569e9dba4f2f5/performance1.png](https://github.com/GibsonHurst/Philly_Broadband_Internet/blob/main/performance1.png))" width=500px>
 
 **Q: How were sources of bias addressed in model development?**
 

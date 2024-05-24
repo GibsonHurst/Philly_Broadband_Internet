@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import sklearn
 import pandas as pd
-import numpy as np
 
 #import data
 url = "https://opendata.arcgis.com/api/v3/datasets/680b093be7274fc8a2b92756c38499bd_0/downloads/data?format=csv&spatialRefId=4326&where=1%3D1"

@@ -234,7 +234,7 @@ def main():
 
     HH_COMBINED_PHONE_ACCESS_mapping = {
         "Landline only": 1,
-        "Dual with a landline or cell": 2,
+        "Dual with a landline and cell": 2,
         "Cell phone only": 3
     }
 
@@ -272,7 +272,7 @@ def main():
     )
 
     HH_COMBINED_PHONE_ACCESS = st.selectbox(
-        "Is your household a landline only household, dual with a landline or cell, or cell phone only household?",
+        "Is your household a landline only household, dual with a landline and cell, or cell phone only household?",
         options=list(HH_COMBINED_PHONE_ACCESS_mapping.keys())
     )
 

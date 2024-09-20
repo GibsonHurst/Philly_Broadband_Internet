@@ -32,7 +32,6 @@ A: Users may opt out of having their application reviewed by AI/ML and will be s
 
 - By: Gibson Hurst
 - **[Interactive Web App](https://phillybroadbandinternet.streamlit.app/)**
-- [Github Repo](https://github.com/GibsonHurst/Philly_Broadband_Internet/tree/main)
 - [Experiment Tracking and Versioning](https://docs.google.com/spreadsheets/d/1VVerLDv5Q7fAYc8_tDpXzQeFb2LhYZCqbMPIuupxv28/edit?usp=sharing)
 - [Data Source](https://opendataphilly.org/datasets/philadelphia-household-internet-assessment-survey/)
 - [LinkedIn](https://www.linkedin.com/in/gibson-hurst/)
